@@ -1,0 +1,16 @@
+En mi concepcion de hibernate, es en primer lugar una solucion de mas alto nivel para evitar usar
+el conector JDBC (Java DataBaseConector) el cual nos brinda la posibilidad de conectarnos a la base
+de datos pero con interacciones muy pobres, ya que debemos indicar movimientos de cursor,etc. indicaciones
+o codigo de bajo nivel.
+
+Aqui entra hibernate, que tecnicamente es un ORM (Object Relational Mappin) que nos 
+permite utilizar un modelo de objetos en nuestras aplicaciones que puede 
+hacernos la vida mucho más fácil cuando tenemos que trabajar con bases de 
+datos, permitiéndonos relacionar las tablas con las clases de la aplicación.
+
+En otras palabras hibernate es un ORM para java, como todos los que usamos, brindando facilidad para hacer codigo
+y persitencia de los datos, creo que siempre que usemos springboot deberiamos descargarlo con el maven y usarlo por defecto
+
+
+
+

@@ -1,0 +1,42 @@
+JS.
+
+1) Deberia devolver una alert del tipo que es la variable, pero en este caso no va devolver nada ya que al usar var
+para squareofA, va estar fuera del scope de la funcion y no va a poder acceder a ella.
+
+
+REACT
+1) It is a mechanism to put data inside the component.
+2)A function or class that returns an element.
+3)Todas son validas
+4)It is the mix between pure HTML and javascript , for this reason JSX is .used to identify React syntax.
+5)Todas son validas
+6)setValue(“my value”)
+7)Two arguments, which are the effect and the dependencies.
+8)import name from 'name';
+9)t is a mechanism that provides a way to pass data through the component. tree without manually passing props at all level.
+10)import MyComponent from './MyComponent';
+11)un componente de clase se diferencía de un componente funcional en dos principales cosas: La capacidad de administrar un estado propio del componente y la exposición de métodos que pueden ejecutar funcionalidad personalizada en distintas etapas del ciclo de vida de un componente.
+12)parece haber muchas matices en cuanto a su uso.el metodo setState() para actualizar el estado de un componente, ya que es el metodo que React. pero tambien aparece redux
+13)al igual que con el componente de tipo función, modificar estado desde un componente clase en React genera un nuevo render. En este tipo de componentes, esto quiere decir que se ejecuta el código que esté dentro del método render, obligatorio para todos los componentes declarados con class
+16)alta un return dentro de la función
+19)el uso más común de useEffect es para realizar tareas como cargar datos desde una API, suscribirse a eventos de un componente y limpiar recursos cuando un componente se desmonta.
+
+
+
+
+#nunca realice ningun proyecto con react
+Informacion para completar el cuestionario de React + GitHub Copilot
+1)https://react.dev/learn/passing-props-to-a-component
+2)https://react.dev/reference/react/Component
+3)https://es.legacy.reactjs.org/docs/introducing-jsx.html
+4)https://legacy.reactjs.org/docs/hooks-state.html
+5)https://legacy.reactjs.org/docs/hooks-effect.html
+6)https://legacy.reactjs.org/docs/context.html
+7)https://www.geeksforgeeks.org/differences-between-functional-components-and-class-components/
+8)https://overreacted.io/es/how-are-function-components-different-from-classes/
+9)https://dev.to/cuarte4/componentes-de-clase-o-funcionales-4c1c
+11)https://codigofacilito.com/articulos/componentes-clase-react
+12)https://legacy.reactjs.org/docs/faq-state.html
+13)https://keepcoding.io/blog/modificar-estado-desde-componente-clase-reat/
+14)https://www.freecodecamp.org/news/react-js-for-beginners-props-state-explained/
+19)https://legacy.reactjs.org/docs/hooks-effect.html
